@@ -1,0 +1,21 @@
+.formik-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 2px;
+    box-shadow: 0 0 10px grey;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
